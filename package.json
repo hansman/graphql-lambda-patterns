@@ -1,0 +1,20 @@
+{
+  "name": "graphql-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johann Steinbrecher",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.91.0",
+    "bluebird": "^3.5.0",
+    "env2": "^2.2.0",
+    "graphql": "^0.10.5",
+    "lodash": "^4.17.4",
+    "lodash.isempty": "^4.4.0",
+    "uuid": "^3.1.0"
+  }
+}

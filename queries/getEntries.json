@@ -1,0 +1,3 @@
+{
+  "query": "{entries { id name }}"
+}

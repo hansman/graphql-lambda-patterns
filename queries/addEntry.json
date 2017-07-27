@@ -1,0 +1,3 @@
+{
+  "query": "mutation { addEntry(name: \"sepp\") { id name } }"
+}
