@@ -1,0 +1,15 @@
+{
+  "aws": {
+    "credentials": {
+      "accessKeyId": "access key",
+      "secretAccessKey": "secret access key",
+      "region": "us-west-2"
+    },
+    "userPool": {
+      "UserPoolId" : "us-west-2_6c8o0THE9",
+      "ClientId" : "shc3dlbqbki8c5ic5cn2o7v9v"
+    },
+    "tableName": "entries",
+    "pageSize": 50
+  }
+}

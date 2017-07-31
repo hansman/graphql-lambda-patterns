@@ -1,0 +1,74 @@
+{
+  "name": "entries-lambda",
+  "author": "Johann Steinbrecher",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": ">=5.0"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.19.0",
+    "autobind-decorator": "^1.3.4",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "baobab": "^2.3.4",
+    "baobab-react": "^2.1.2",
+    "bluebird": "^3.4.6",
+    "nets": "^3.2.0",
+    "react": "15.4.1",
+    "react-native": "0.39.2",
+    "react-native-form-generator": "^0.9.9",
+    "react-native-vector-icons": "^3.0.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "enzyme": "^2.7.0",
+    "jest": "17.0.3",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-test-renderer": "15.4.1"
+  },
+  "jest": {
+    "automock": false,
+    "timers": "real",
+    "bail": false,
+    "cacheDirectory": "/tmp",
+    "collectCoverage": false,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text"
+    ],
+    "globals": {},
+    "mocksPattern": "(?:[\\/]|^)__mocks__[\\/]",
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx"
+    ],
+    "modulePaths": [],
+    "modulePathIgnorePatterns": [],
+    "notify": false,
+    "preset": "react-native",
+    "resetModules": false,
+    "setupFiles": [],
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testRunner": "jasmine2",
+    "unmockedModulePathPatterns": [],
+    "verbose": true
+  }
+}
