@@ -10,7 +10,7 @@ Promise.promisifyAll(db, {context: db});
 
 exports.getEntries = () => {
 
-  var params = {
+  const params = {
     TableName: config.aws.tableName,
     Limit: config.aws.pageSize
   };
@@ -23,14 +23,14 @@ exports.getEntries = () => {
 
 exports.getEntry = (id) => {
 
-  var params = {
+  const params = {
     TableName: config.aws.tableName,
     Key: {
       id
     }
   };
 
-  return db.getAsyn(params).then((data) => {
+  return db.getAsync(params).then((data) => {
     return data.Item;
   });
 
@@ -38,7 +38,7 @@ exports.getEntry = (id) => {
 
 exports.addEntry = (id, name) => {
 
-  var params = {
+  const params = {
     TableName: config.aws.tableName,
     Item: {
       id,
@@ -53,7 +53,7 @@ exports.addEntry = (id, name) => {
 };
 
 exports.dropEntry = (id) => {
-  var params = {
+  const params = {
     TableName: config.aws.tableName,
     Key: {
       id
