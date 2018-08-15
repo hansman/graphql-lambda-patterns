@@ -1,6 +1,6 @@
 # Graphql Lambda
 
-CRUD on an `Entry` object using aws lambdas triggered by API Gateway.
+Create/read/update/delete an `Entry` object based on graphql. The graphql server is hosted as a lambda function and triggered via the AWS-API gateway.
 
 ## Configure
 `cp lambda/config.example.json lambda/config.json`
