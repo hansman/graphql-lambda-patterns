@@ -1,4 +1,4 @@
-# Graphql Lambda
+# Graphql Lambda Patterns
 
 Create/read/update/delete an `Entry` object based on graphql. The graphql server is hosted as a lambda function and triggered via the AWS-API gateway.
 
